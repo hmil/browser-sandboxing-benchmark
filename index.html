@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-browser scripting benchmark</title>
+</head>
+<body>
+    <div id="main"></div>
+    <script src="assemblyscript/node_modules/@assemblyscript/loader/umd/index.js"></script>
+    <script src="./assemblyscript.js"></script>
+    <script src="lua-bindings/lua-bindings.js"></script>
+    <script src="emscripten-baseline/emscripten-baseline.js"></script>
+    <script src="./javascript.js"></script>
+    <script src="./emscripten-baseline.js"></script>
+    <script src="node_modules/fengari-web/dist/fengari-web.js"></script>
+    <script src="./lua.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
